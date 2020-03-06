@@ -9,6 +9,7 @@ public class Typecheck {
     Goal tree = parser.Goal();
     PrettyPrinterVisitor printer = new PrettyPrinterVisitor();
     printer.visit(tree);
+    System.out.println("Program type checked successfully");
 
   }
 
